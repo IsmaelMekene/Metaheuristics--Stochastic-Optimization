@@ -40,9 +40,9 @@ Under the following constraints:
 
  ![graph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/graph.png)
  
- b) see code [linkofq1](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
+ b) see code [continuousOptimization](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
  
- c) see code [linkofq1](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
+ c) see code [sensitivityAnalysis](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
 
 
 
