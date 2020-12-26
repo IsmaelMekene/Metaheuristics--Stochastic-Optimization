@@ -12,7 +12,7 @@ to maximize revenue by separating travelers into groups, for instance 14 days ad
 leisure travelers, and business travelers. The airline models demand for seats in each group
 using the formula:
 
-![Scheme]("https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/formule.png")
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 Where Di is the people that want to fly given price pi, the remaining parameters are a1=100,
 a2=150, and a3=300. Please note, for simplicity you may assume that each Di is a
