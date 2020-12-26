@@ -3,6 +3,7 @@ Application and illustration of a wide range optimization methods
 
 ## 1. Continuous Optimization & Sensitivity Analysis 
 
+### Subject
 
 This problem is to use sensitivity analysis on revenue management for a very simplified airline
 pricing model. We will assume that an airline has one flight per day from Boston to Atlanta and
@@ -24,6 +25,19 @@ each fare bucket?
 flight,
 a. How much do you expect revenue to change?
 b. By how much should the airline change each price?
+
+### Solution
+
+Revenue Maximisation Problem using the Simplex Method
+A.
+Formulation as an optimization problem:
+Min [ - ((a1×exp(-p1/a1)) + (a2×exp(-p2/a2)) +(a3×exp(-p3/a3))]
+Under the following constraints:
+D1= a1×exp(-p1/a1)
+D2= a2×exp(-p2/a2)
+D3= a3×exp(-p3/a3)
+
+
 
 
 
