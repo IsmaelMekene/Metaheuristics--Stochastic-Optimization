@@ -28,7 +28,7 @@ b. By how much should the airline change each price?
 
 ### Solution
 
- Revenue Maximisation Problem using the Simplex Method
+ a) Revenue Maximisation Problem using the Simplex Method
 
  Formulation as an optimization problem:
  Min [ - ((a1×exp(-p1/a1)) + (a2×exp(-p2/a2)) +(a3×exp(-p3/a3))]
@@ -39,6 +39,10 @@ Under the following constraints:
 - D3= a3×exp(-p3/a3)
 
  ![graph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/graph.png)
+ 
+ b) see code [linkofq1](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
+ 
+ c) see code [linkofq1](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise1_Metaheuristics.ipynb)
 
 
 
