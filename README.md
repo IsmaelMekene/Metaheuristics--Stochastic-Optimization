@@ -12,7 +12,8 @@ to maximize revenue by separating travelers into groups, for instance 14 days ad
 leisure travelers, and business travelers. The airline models demand for seats in each group
 using the formula:
 
-![equation]("https://latex.codecogs.com/gif.latex?Di%20%3D%20Ai%5Ctimes%20%5Cexp%20%5Cleft%20%5B%20-%5Cfrac%7B1%7D%7BAi%7D%20%5Ctimes%20Pi%5Cright%20%5D")
+- <img src="https://latex.codecogs.com/gif.latex?\[Di = Ai\times \exp \left [ -\frac{1}{Ai} \times Pi\right ]\]
+" />
 
 Where Di is the people that want to fly given price pi, the remaining parameters are a1=100,
 a2=150, and a3=300. Please note, for simplicity you may assume that each Di is a
