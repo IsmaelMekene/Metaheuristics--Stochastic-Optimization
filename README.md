@@ -135,13 +135,44 @@ Explain how you “tuned” the heuristic algorithm.
 
 As heuristic technique, we have used the PSO - Particle Swarm Optimization approach (See Python file).
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 i. Dependence of answers on initial design vector (start point, initial population)
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
 | Rosenbrock Function  | low | low |
+| Eggcrate Function  | high | low |
+| Golinski Speed Reducer  | low | low |
+
+ii. Computational effort (CPU time [sec] or FLOPS) 
+
+| Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
+| :---: | :---: | :---: |
+| Rosenbrock Function  | 0.031 | 0.347 |
+| Eggcrate Function  | 0.008 | 0.151 |
+| Golinski Speed Reducer  | 0.117 | 17.43 |
+
+iii. Convergence history 
+
+| Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
+| :---: | :---: | :---: |
+| Rosenbrock Function  | Always converged to global
+minimum. | Converged, but efficiency
+depends on the tuning
+parameters selected |
+| Eggcrate Function  | Always converged, but either a
+local or a global minimum. | Converged, but efficiency
+depends on the tuning
+parameters selected |
+| Golinski Speed Reducer  | Always converged to global
+minimum. | Converged, but efficiency
+depends on the tuning
+parameters selected |
+
+iv. Frequency at which the technique gets trapped in a local optimum
+
+| Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
+| :---: | :---: | :---: |
+| Rosenbrock Function  | 0 | 0 |
+| Eggcrate Function  | 0.9 | 0 |
+| Golinski Speed Reducer  | 0 | 0 |
+
