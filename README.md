@@ -75,7 +75,7 @@ global minimum at [0, 0] with an optimal function value of zero.
 
 This hypothetical problem represents the design of a simple gearbox such as might be used in a
 light airplane between the engine and propeller to allow each to rotate at its most efficient speed.
-The gearbox is depicted in Figure 2 and its seven design variables are labeled. The objective is
+The gearbox is depicted in Figure and its seven design variables are labeled. The objective is
 to minimize the speed reducer’s weight while satisfying the 11 constraints imposed by gear and
 shaft design practices. A full problem description can be found in Reference [1]. A known
 feasible solution obtained by a sequential quadratic programming (SQP) approach is a 2994.34
@@ -84,6 +84,8 @@ kg gearbox with the following values for the seven design variables: [3.5000 0.7
 This is a feasible solution with four active constraints, but is it an optimal solution?
 
 ![Golinski](https://www.researchgate.net/profile/Cenker_Aktemur2/publication/329715526/figure/fig1/AS:704855601582085@1545062079858/The-Speed-Reducer-labelled-with-the-Design-variables-4.png)
+Figure: Golinski’s Speed Reducer with 7 design variables
+
 
 
 Discuss the results and insights you get from numerically solving these three
