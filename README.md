@@ -99,5 +99,17 @@ toward the global optimum
 
 ![bananagraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/banagraph.png)
 
+- The Eggcrate Function
+
+![eggcrate](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggcrate.png)
+
+For eggcrate function, the same algorithm was employed and it was noticed that gradient- based
+optimizer was stucked in the local optimum, depending on the starting point that were chosen
+randomly within bounds [-2π, 2π].
+Out of 10 runs, 9 were stucked in a local minima while 1 found the global optimum that is 0.
+In this case we still have feasible solutions. Although the optimum at each run is feasible, it is still
+unlikely to catch the global optimum.
+
+![eggcrategraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggcrategraph.png)
 
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
