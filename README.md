@@ -133,3 +133,10 @@ Explain how you “tuned” the heuristic algorithm.
 
 ### Solution
 
+As heuristic technique, we have used the PSO - Particle Swarm Optimization approach (See Python file).
+
+i. Dependence of answers on initial design vector (start point, initial population)
+
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |
