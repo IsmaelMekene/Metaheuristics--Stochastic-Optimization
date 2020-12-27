@@ -137,6 +137,6 @@ As heuristic technique, we have used the PSO - Particle Swarm Optimization appro
 
 i. Dependence of answers on initial design vector (start point, initial population)
 
-| Attempt | #1 | #2 |
+| Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
-| Seconds | 301 | 283 |
+| Rosenbrock Function  | low | low |
