@@ -125,3 +125,11 @@ and the quickly optimizer converged to the optimum in all cases.
 ![goldinski](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/goldinskigraph.png)
 
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
+
+### Subject
+
+Repeat the numerical experiments from exercise 2, but this time using a heuristic technique of your choice (e.g. SA, GA …). 
+Explain how you “tuned” the heuristic algorithm. 
+
+### Solution
+
