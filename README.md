@@ -50,11 +50,11 @@ Under the following constraints:
 
 ## 2. Non-linear Optimization & Gradient Descent
 
-### Subject*
+### Subject
 
  Consider the following three optimization problems:
  
-The Banana (Rosenbrock) Function
+- The Banana (Rosenbrock) Function
 This function is known as the “banana function” because of its shape; it is described
 mathematically in Equation (1). In this problem, there are two design variables with lower and
 upper limits of [-5, 5]. The Rosenbrock function has a known global minimum at [1, 1] with an
@@ -62,6 +62,30 @@ optimal function value of zero.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" title="Minimize f (x) = 100\left ( x_{2}-x_{1}^{2} \right )^{2}+\left ( 1-x_{1} \right )^{2}" /></a>   (1)
 
+- The Eggcrate Function
+This function is described mathematically in Equation (2). In this problem, there are two
+design variables with lower and upper bounds of [-2π, 2π]. The Eggcrate function has a known
+global minimum at [0, 0] with an optimal function value of zero.
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" title="Minimize f ( x ) = x_{1}^{2}+x_{2}^{2}+25\left ( \sin ^{2}\left (x_{1} \right ) +( \sin ^{2}\left (x_{2} \right )\right )" /></a>   (2)
+
+-Golinski’s Speed Reducer
+This hypothetical problem represents the design of a simple gearbox such as might be used in a
+light airplane between the engine and propeller to allow each to rotate at its most efficient speed.
+The gearbox is depicted in Figure 2 and its seven design variables are labeled. The objective is
+to minimize the speed reducer’s weight while satisfying the 11 constraints imposed by gear and
+shaft design practices. A full problem description can be found in Reference [1]. A known
+feasible solution obtained by a sequential quadratic programming (SQP) approach is a 2994.34
+kg gearbox with the following values for the seven design variables: [3.5000 0.7000 17.0000
+7.3000 7.7153 3.3502 5.2867 ].
+This is a feasible solution with four active constraints, but is it an optimal solution?
+
+![Golinski](https://www.researchgate.net/profile/Cenker_Aktemur2/publication/329715526/figure/fig1/AS:704855601582085@1545062079858/The-Speed-Reducer-labelled-with-the-Design-variables-4.png)
+
+
+Discuss the results and insights you get from numerically solving these three
+nonlinear optimization problems.
+
+### Solution
 
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
