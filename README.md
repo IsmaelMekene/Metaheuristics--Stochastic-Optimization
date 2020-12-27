@@ -155,18 +155,9 @@ iii. Convergence history
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
-| Rosenbrock Function  | Always converged to global
-minimum. | Converged, but efficiency
-depends on the tuning
-parameters selected |
-| Eggcrate Function  | Always converged, but either a
-local or a global minimum. | Converged, but efficiency
-depends on the tuning
-parameters selected |
-| Golinski Speed Reducer  | Always converged to global
-minimum. | Converged, but efficiency
-depends on the tuning
-parameters selected |
+| Rosenbrock Function  | Always converged to global minimum. | Converged, but efficiency depends on the tuning parameters selected |
+| Eggcrate Function  | Always converged, but either a local or a global minimum. | Converged, but efficiency depends on the tuning parameters selected|
+| Golinski Speed Reducer  | Always converged to global minimum. | Converged, but efficiency depends on the tuning parameters selected |
 
 iv. Frequency at which the technique gets trapped in a local optimum
 
