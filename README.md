@@ -196,3 +196,7 @@ especially if there are multiple optima in the design space.
 
 Genetic Algorithms are computationally expensive and requires considerable “tuning” effort,
 especially for complex problems. 
+
+
+
+see report [Report](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/report/Metaheuristics_20203001-2-8.pdf)
