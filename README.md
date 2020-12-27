@@ -124,6 +124,8 @@ and the quickly optimizer converged to the optimum in all cases.
 
 ![goldinski](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/goldinskigraph.png)
 
+see code [gradientDescent](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise%202_Metaheuristics.ipynb)
+
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
 
 ### Subject
@@ -134,6 +136,8 @@ Explain how you “tuned” the heuristic algorithm.
 ### Solution
 
 As heuristic technique, we have used the PSO - Particle Swarm Optimization approach (See Python file).
+
+see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise%203_Metaheuristics.ipynb)
 
 i. Dependence of answers on initial design vector (start point, initial population)
 
