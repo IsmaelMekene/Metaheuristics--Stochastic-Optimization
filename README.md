@@ -69,7 +69,7 @@ global minimum at [0, 0] with an optimal function value of zero.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" title="Minimize f ( x ) = x_{1}^{2}+x_{2}^{2}+25\left ( \sin ^{2}\left (x_{1} \right ) +( \sin ^{2}\left (x_{2} \right )\right )" /></a>   (2)
 
--Golinski’s Speed Reducer
+- Golinski’s Speed Reducer
 This hypothetical problem represents the design of a simple gearbox such as might be used in a
 light airplane between the engine and propeller to allow each to rotate at its most efficient speed.
 The gearbox is depicted in Figure 2 and its seven design variables are labeled. The objective is
@@ -87,5 +87,17 @@ Discuss the results and insights you get from numerically solving these three
 nonlinear optimization problems.
 
 ### Solution
+
+- The Banana (Rosenbrock) Function
+
+![banana](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/banana.png)
+
+In minimizing Rosenbrock function, the gradient descent approach (implemented in python) was used
+within bounds [-4, 4]. In all cases, the global minimum was found within 6 significant digits (Minimum = 0).
+This a feasible solution as we can observed on the python file, for each run the algorithm is converging
+toward the global optimum
+
+![bananagraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/banagraph.png)
+
 
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
