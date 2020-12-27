@@ -167,3 +167,10 @@ iv. Frequency at which the technique gets trapped in a local optimum
 | Eggcrate Function  | 0.9 | 0 |
 | Golinski Speed Reducer  | 0 | 0 |
 
+v. Conclusion
+
+Gradient-based optimizers can get stuck in local optima and are sensitive to the starting point,
+especially if there are multiple optima in the design space.
+
+Genetic Algorithms are computationally expensive and requires considerable “tuning” effort,
+especially for complex problems. 
