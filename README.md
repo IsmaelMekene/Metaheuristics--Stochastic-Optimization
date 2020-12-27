@@ -112,4 +112,16 @@ unlikely to catch the global optimum.
 
 ![eggcrategraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggcrategraph.png)
 
+- Golinski’s Speed Reducer
+
+SLSQP – Sequential Least Squares Programming approach has been used for this optimization problem.
+
+Finally the Golinski’s speed reducer problem was solved using sequential quadratic programming
+approach (implemented in Python) that handles gradient-based constrained optimization
+problems. This problem has 11 constraints, in addition to bound constraints and objective is to
+minimize the weight of the speed reducer. The 10 starting points were picked at random as before
+and the quickly optimizer converged to the optimum in all cases.
+
+![goldinski](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/goldinskigraph.png)
+
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
