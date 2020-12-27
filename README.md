@@ -50,6 +50,17 @@ Under the following constraints:
 
 ## 2. Non-linear Optimization & Gradient Descent
 
+### Subject*
+
+ Consider the following three optimization problems:
+ 
+The Banana (Rosenbrock) Function
+This function is known as the “banana function” because of its shape; it is described
+mathematically in Equation (1). In this problem, there are two design variables with lower and
+upper limits of [-5, 5]. The Rosenbrock function has a known global minimum at [1, 1] with an
+optimal function value of zero.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" title="Minimize f (x) = 100\left ( x_{2}-x_{1}^{2} \right )^{2}+\left ( 1-x_{1} \right )^{2}" /></a>   (1)
 
 
 
