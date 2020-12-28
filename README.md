@@ -1,7 +1,11 @@
 # :card_index_dividers: Metaheuristics--Stochastic-Optimization
 Application and illustration of a wide range optimization methods
 
-![gif](https://camo.githubusercontent.com/d0fd01ef765ef7058f5d69dead0bc699bdb4f7db38324dcdada049f471d804c7/687474703a2f2f6765656b737461636b2e6e65742f7473702e676966)
+<p align="center">
+  <img src="https://miro.medium.com/max/1200/1*fpebFXB7TctmBvI0R7NXng.gif"/>
+</p>
+
+![gif](https://miro.medium.com/max/1200/1*fpebFXB7TctmBvI0R7NXng.gif)
 
 ## 1. Continuous Optimization & Sensitivity Analysis 
 
