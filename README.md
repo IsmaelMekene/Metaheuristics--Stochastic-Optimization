@@ -1,4 +1,4 @@
-# :file_folder: Metaheuristics--Stochastic-Optimization
+# :card_index_dividers: Metaheuristics--Stochastic-Optimization
 Application and illustration of a wide range optimization methods
 
 ## 1. Continuous Optimization & Sensitivity Analysis 
