@@ -60,7 +60,7 @@ Under the following constraints:
 
  Consider the following three optimization problems:
  
-**- The Banana (Rosenbrock) Function**
+** - The Banana (Rosenbrock) Function**
 
 This function is known as the “banana function” because of its shape; it is described
 mathematically in Equation (1). In this problem, there are two design variables with lower and
@@ -69,7 +69,7 @@ optimal function value of zero.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(x)&space;=&space;100\left&space;(&space;x_{2}-x_{1}^{2}&space;\right&space;)^{2}&plus;\left&space;(&space;1-x_{1}&space;\right&space;)^{2}" title="Minimize f (x) = 100\left ( x_{2}-x_{1}^{2} \right )^{2}+\left ( 1-x_{1} \right )^{2}" /></a>   (1)
 
-**- The Eggcrate Function**
+** - The Eggcrate Function**
 
 This function is described mathematically in Equation (2). In this problem, there are two
 design variables with lower and upper bounds of [-2π, 2π]. The Eggcrate function has a known
@@ -77,7 +77,7 @@ global minimum at [0, 0] with an optimal function value of zero.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Minimize&space;f&space;(&space;x&space;)&space;=&space;x_{1}^{2}&plus;x_{2}^{2}&plus;25\left&space;(&space;\sin&space;^{2}\left&space;(x_{1}&space;\right&space;)&space;&plus;(&space;\sin&space;^{2}\left&space;(x_{2}&space;\right&space;)\right&space;)" title="Minimize f ( x ) = x_{1}^{2}+x_{2}^{2}+25\left ( \sin ^{2}\left (x_{1} \right ) +( \sin ^{2}\left (x_{2} \right )\right )" /></a>   (2)
 
-**- Golinski’s Speed Reducer**
+** - Golinski’s Speed Reducer**
 
 This hypothetical problem represents the design of a simple gearbox such as might be used in a
 light airplane between the engine and propeller to allow each to rotate at its most efficient speed.
@@ -99,7 +99,7 @@ nonlinear optimization problems.
 
 ### Solution
 
-**- The Banana (Rosenbrock) Function**
+** - The Banana (Rosenbrock) Function**
 
 ![banana](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/banana.png)
 
@@ -110,7 +110,7 @@ toward the global optimum
 
 ![bananagraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/banagraph.png)
 
-**- The Eggcrate Function**
+** - The Eggcrate Function**
 
 ![eggcrate](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggcrate.png)
 
@@ -123,7 +123,7 @@ unlikely to catch the global optimum.
 
 ![eggcrategraph](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggcrategraph.png)
 
-**- Golinski’s Speed Reducer**
+** - Golinski’s Speed Reducer**
 
 **SLSQP** – Sequential Least Squares Programming approach has been used for this optimization problem.
 
@@ -150,20 +150,20 @@ As heuristic technique, we have used the **PSO - Particle Swarm Optimization** a
 
 see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise%203_Metaheuristics.ipynb)
 
-**- The Banana (Rosenbrock) Function**
+** - The Banana (Rosenbrock) Function**
 
 ![rosenPSO](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/rosenPSO.png)
 
-**- The Eggcrate Function**
+** - The Eggcrate Function**
 
 ![eggPSO](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/eggPSO.png)
 
-**- Golinski’s Speed Reducer**
+** - Golinski’s Speed Reducer**
 
 ![golinPSO](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/golinPSO.png)
 
 
-**i. Dependence of answers on initial design vector (start point, initial population)**
+** i. Dependence of answers on initial design vector (start point, initial population)**
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
@@ -171,7 +171,7 @@ see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheurist
 | Eggcrate Function  | high | low |
 | Golinski Speed Reducer  | low | low |
 
-**ii. Computational effort (CPU time [sec] or FLOPS)** 
+** ii. Computational effort (CPU time [sec] or FLOPS)** 
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
@@ -179,7 +179,7 @@ see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheurist
 | Eggcrate Function  | 0.008 | 0.151 |
 | Golinski Speed Reducer  | 0.117 | 17.43 |
 
-**iii. Convergence history** 
+** iii. Convergence history** 
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
@@ -187,7 +187,7 @@ see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheurist
 | Eggcrate Function  | Always converged, but either a local or a global minimum. | Converged, but efficiency depends on the tuning parameters selected|
 | Golinski Speed Reducer  | Always converged to global minimum. | Converged, but efficiency depends on the tuning parameters selected |
 
-**iv. Frequency at which the technique gets trapped in a local optimum**
+** iv. Frequency at which the technique gets trapped in a local optimum**
 
 | Problem Name | Gradient-Based Optimizer | Particle Swarm Otpimizer |
 | :---: | :---: | :---: |
@@ -195,7 +195,7 @@ see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheurist
 | Eggcrate Function  | 0.9 | 0 |
 | Golinski Speed Reducer  | 0 | 0 |
 
-**v. Conclusion**
+** v. Conclusion**
 
 Gradient-based optimizers can get stuck in local optima and are sensitive to the starting point,
 especially if there are multiple optima in the design space.
