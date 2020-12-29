@@ -195,7 +195,7 @@ see code [ParticleSwarmOptimization](https://github.com/IsmaelMekene/Metaheurist
 | Eggcrate Function  | 0.9 | 0 |
 | Golinski Speed Reducer  | 0 | 0 |
 
-** v. Conclusion**
+** v. Conclusion **
 
 Gradient-based optimizers can get stuck in local optima and are sensitive to the starting point,
 especially if there are multiple optima in the design space.
