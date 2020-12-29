@@ -1,10 +1,21 @@
 # :card_index_dividers: Metaheuristics--Stochastic-Optimization
 Application and illustration of a wide range optimization methods
 
+The follwing optimization problems will be tackled under Python latest version. 
+Python has a broad range of packages that make numerical computation more exciting. We will focus on:
+
+- [x] sympy
+- [x] pyswarm
+- [x] scipy
+- [x] matplotlib
+- [x] numpy
+
+
 
 <p align="center">
   <img src="https://miro.medium.com/max/1200/1*fpebFXB7TctmBvI0R7NXng.gif"/>
 </p>
+
 
 
 ## 1. Continuous Optimization & Sensitivity Analysis 
