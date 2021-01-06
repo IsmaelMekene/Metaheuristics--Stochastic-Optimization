@@ -3,6 +3,11 @@ Application and illustration of a wide range optimization methods
 
 
 <p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/psoptim.gif"/>
+</p>
+
+
+<p align="center">
   <img src="https://miro.medium.com/max/1200/1*fpebFXB7TctmBvI0R7NXng.gif"/>
 </p>
 
