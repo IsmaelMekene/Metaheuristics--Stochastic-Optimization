@@ -2,9 +2,6 @@
 Application and illustration of a wide range optimization methods
 
 
-<p align="center">
-  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/psoptim.gif"/>
-</p>
 
 
 <p align="center">
@@ -153,6 +150,11 @@ and the quickly optimizer converged to the optimum in all cases.
 see code [gradientDescent](https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/model/Exercise%202_Metaheuristics.ipynb)
 
 ## 3. Non-linear Optimization & PSO - Particle Swarm Optimization approach
+
+<p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/psoptim.gif"/>
+</p>
+
 
 ### Subject
 
